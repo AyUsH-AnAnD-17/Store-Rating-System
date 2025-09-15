@@ -1,0 +1,57 @@
+.store-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.store-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.store-header {
+  margin-bottom: 15px;
+}
+
+.store-name {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.store-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.rating-text {
+  font-size: 14px;
+  color: #666;
+}
+
+.store-address {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.user-rating-section {
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.user-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-rating span {
+  font-weight: 500;
+  color: #333;
+}

@@ -1,0 +1,125 @@
+.store-owner-dashboard {
+  max-width: 1000px;
+}
+
+.store-info-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.store-info-card h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.store-address {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.store-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.stat {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.stat h4 {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.rating-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.rating-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.stat-number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.ratings-section {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.ratings-list {
+  margin-top: 20px;
+}
+
+.rating-item {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.rating-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.customer-info strong {
+  display: block;
+  color: #333;
+}
+
+.customer-email {
+  color: #666;
+  font-size: 14px;
+}
+
+.rating-info {
+  text-align: right;
+}
+
+.rating-date {
+  color: #666;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}
+
+.rating-comment {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.rating-comment p {
+  font-style: italic;
+  color: #555;
+  line-height: 1.4;
+}
+
+.no-ratings {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
