@@ -460,7 +460,7 @@ const seedData = async () => {
     console.log('✅ Ready for testing all system functionalities');
 
     console.log('\n' + '='.repeat(50));
-    console.log('🚀 NEXT STEPS:');
+    console.log('NEXT STEPS:');
     console.log('='.repeat(50));
     console.log('1. Start your backend server');
     console.log('2. Use the login credentials above to test different user roles');
@@ -469,7 +469,7 @@ const seedData = async () => {
     console.log('5. Test password updates and user management');
     
   } catch (error) {
-    console.error('❌ Error seeding data:', error);
+    console.error('Error seeding data:', error);
   }
 };
 
@@ -489,53 +489,3 @@ if (require.main === module) {
 }
 
 module.exports = { runSeed, User, Store, Rating };
-
-/* 
-USAGE INSTRUCTIONS:
-
-1. Save this file as 'seed.js' in your project root
-2. Make sure MongoDB is running
-3. Run the script: node seed.js
-4. The script will create sample data for testing
-
-WHAT THIS SCRIPT CREATES:
-
-👨‍💼 ADMINISTRATORS (3 users):
-- Full system access
-- Can manage users, stores, view dashboard
-- Different admin accounts for testing
-
-👤 NORMAL USERS (8 users):
-- Can rate stores, update passwords
-- Each user has rated 3-6 different stores
-- Realistic names, emails, addresses
-
-🏪 STORE OWNERS & STORES (8 each):
-- Each owner manages one store
-- Stores have calculated average ratings
-- Diverse store types (restaurant, coffee, tech, etc.)
-
-⭐ RATINGS (24-48 ratings):
-- Distributed across all stores
-- Realistic rating values (1-5)
-- Comments based on rating value
-- Each user-store combination is unique
-
-DATA VALIDATION:
-✅ All names are 20-60 characters
-✅ All passwords have uppercase + special chars
-✅ All emails follow proper format
-✅ All addresses are under 400 characters
-✅ All data follows your validation rules
-
-TESTING CAPABILITIES:
-🔍 Search and filter functionality
-📊 Admin dashboard with real statistics  
-⭐ Rating submission and modification
-👥 User management and role-based access
-🏪 Store owner rating viewing
-🔐 Password updates and authentication
-📱 All CRUD operations with realistic data
-
-Ready to test all system features immediately after running!
-*/

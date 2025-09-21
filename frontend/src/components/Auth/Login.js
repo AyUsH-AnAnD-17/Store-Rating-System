@@ -79,13 +79,6 @@ const Login = () => {
         <div className="auth-links">
           <p>Don't have an account? <Link to="/register">Sign up here</Link></p>
         </div>
-
-        <div className="demo-credentials">
-          <h4>Demo Credentials:</h4>
-          <p><strong>Admin:</strong> admin@storerating.com / Admin123!</p>
-          <p><strong>User:</strong> alice.johnson@email.com / User123!</p>
-          <p><strong>Store Owner:</strong> michael.owner@pizzapalace.com / Owner123!</p>
-        </div>
       </div>
     </div>
   );
